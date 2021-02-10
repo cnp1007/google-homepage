@@ -1,0 +1,110 @@
+/*Global*/
+body {
+    font-family: arial,sans-serif;
+}
+/*Navigation*/
+nav.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+ul {
+    list-style-type: none;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+#nav-list-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 30px;
+}
+#nav-list-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+    padding-right: 10px;
+}
+button {
+    color: white;
+    background-color: #4285F4;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+/*Google Logo and search box*/
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+#search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 35px;
+    border-color: #d3d3d3;
+    border-width: thin;
+    border-style: solid;
+    width: 500px;
+}
+.fas {
+    position: absolute;
+    padding-right: 450px;
+    padding-top: 15px;
+}
+
+/*Google Search and I'm Feeling Lucky buttons*/
+#buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    column-gap: 20px;
+    
+}
+.link {
+    background-color: #d3d3d377;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Footer */
+#footer {
+    position: fixed; 
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #d3d3d377;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 350px;
+}
+#footer-left {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: flex-start;
+}
+#footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 30px;
+    padding-right: 30px;
+
+}
